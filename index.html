@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Spark Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="header" id="headerjs">
+            <div class="header-links" id="header-links-js">
+                <a href="index.html" style="text-decoration: none;">
+                    <div class="header-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 10px; margin-left: -70px;" height="1.3em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg>
+                        <p style="margin-top: -12px; margin-left: 35px;">Home</p>
+                    </div>
+                </a>
+                <a href="index.html" style="text-decoration: none;">
+                    <div class="header-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 10px; margin-left: -70px;" height="1.3em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z"/></svg>
+                        <p style="margin-top: -12px; margin-left: 35px;">Works</p>
+                    </div>
+                </a>
+                <a href="index.html" style="text-decoration: none;">
+                    <div class="header-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 10px; margin-left: -70px;" height="1.3em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M152.1 38.2c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 113C-2.3 103.6-2.3 88.4 7 79s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zm0 160c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L7 273c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zM224 96c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H256c-17.7 0-32-14.3-32-32zM160 416c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H192c-17.7 0-32-14.3-32-32zM48 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
+                        <p style="margin-top: -12px; margin-left: 35px;">Tasks</p>
+                    </div>
+                </a>
+                <a href="https://v2.nikkou.nagoya" style="text-decoration: none;">
+                    <div class="header-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 10px; margin-left: -70px;" height="1.3em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M32 32H480c17.7 0 32 14.3 32 32V96c0 17.7-14.3 32-32 32H32C14.3 128 0 113.7 0 96V64C0 46.3 14.3 32 32 32zm0 128H480V416c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V160zm128 80c0 8.8 7.2 16 16 16H336c8.8 0 16-7.2 16-16s-7.2-16-16-16H176c-8.8 0-16 7.2-16 16z"/></svg>
+                        <p style="margin-top: -12px; margin-left: 35px;">v2</p>
+                    </div>
+                </a>
+                <a href="https://v3.nikkou.nagoya" style="text-decoration: none;">
+                    <div class="header-text">
+                        <svg xmlns="http://www.w3.org/2000/svg" style="margin-top: 10px; margin-left: -70px;" height="1.3em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M320 488c0 9.5-5.6 18.1-14.2 21.9s-18.8 2.3-25.8-4.1l-80-72c-5.1-4.6-7.9-11-7.9-17.8s2.9-13.3 7.9-17.8l80-72c7-6.3 17.2-7.9 25.8-4.1s14.2 12.4 14.2 21.9v40h16c35.3 0 64-28.7 64-64V153.3C371.7 141 352 112.8 352 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V320c0 70.7-57.3 128-128 128H320v40zM456 80a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM192 24c0-9.5 5.6-18.1 14.2-21.9s18.8-2.3 25.8 4.1l80 72c5.1 4.6 7.9 11 7.9 17.8s-2.9 13.3-7.9 17.8l-80 72c-7 6.3-17.2 7.9-25.8 4.1s-14.2-12.4-14.2-21.9V128H176c-35.3 0-64 28.7-64 64V358.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V192c0-70.7 57.3-128 128-128h16V24zM56 432a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z"/></svg>
+                        <p style="margin-top: -12px; margin-left: 35px;">v3</p>
+                    </div>
+                </a>
+                <div class="header-text">
+                    <a href="https://github.com/nikkou-0814"><img class="acchover" src="image/github-mark.svg"></a>
+                    <a href="https://x.com/nikkou0814"><svg class="acchover" xmlns="http://www.w3.org/2000/svg" style="margin-left: 10px;" height="25px" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"/></svg></a>
+                    <a href="https://tokuly.com/users/@nikkou"><img class="acchover" src="image/tokuly.png" style="margin-left: 10px; border-radius: 5px;"></a>
+                </div>
+                <p style="position: absolute; bottom: 20px;">This Portfolio is version β4.1.4</p>
+            </div>
+        </div>
+        <div class="header-button" id="header-button-js">
+            <svg fill="#000000" height="25px" width="25px" style="margin: 15px 0 0 12px; transform: rotate(180deg);" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
+        </div>
+    </header>
+    <div class="bgwave" id="bgwavejs">
+        <canvas id="waveCanvas"></canvas>
+    </div>
+    <div class="notifications" id="nftos-motion">
+        <p style="text-align: center; margin: auto;" id="nftos-text"></p>
+    </div>
+
+    <div class="hello" id="hello-js">
+        <div id="hello-tile-js"class="hello-tile">
+            <p style="font-size: 30px;">にょっす🐮🖐️</p>
+            <p style="font-size: 23px;">My name is Spark</p>
+        </div>
+        <div class="down" id="down-js">
+            <svg fill="#000000" height="25px" width="25px" style="margin: 15px 0 0 12px; transform: rotate(180deg);" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330 330" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path id="XMLID_224_" d="M325.606,229.393l-150.004-150C172.79,76.58,168.974,75,164.996,75c-3.979,0-7.794,1.581-10.607,4.394 l-149.996,150c-5.858,5.858-5.858,15.355,0,21.213c5.857,5.857,15.355,5.858,21.213,0l139.39-139.393l139.397,139.393 C307.322,253.536,311.161,255,315,255c3.839,0,7.678-1.464,10.607-4.394C331.464,244.748,331.464,235.251,325.606,229.393z"></path> </g></svg>
+        </div> 
+    </div>
+
+    <div class="about">
+        <h1 class="bh">Sparkについて🐮</h1>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
+            <div class="profile">
+                <h1 class="about-1">プロフィール</h1>
+                <p class="about-texts">名前：Spark<br>年齢：14歳<br>誕生日：9月14日<br>好きなゲーム：VALORANT</p>
+            </div>
+            <div class="skill">
+                <h1 class="about-1" style="padding-top: 30px;">VALORANT</h1>
+                <p class="about-texts" style="padding-top: 35px;">ROLE : duelist<br>Peak Rating
+                    ：419RR IMO3<br>Headshot ：40.6%<br>K/D：1.34</p>
+            </div>
+            <div class="learns" id="learns-js">
+                <a href="" style="text-decoration: none; color: black;">
+                    <h1 class="about-1" style="">動画編集</h1>
+                    <p class="about-texts" style="padding-top: 70px;">編集者：兄<br>ツール：Pr,Ae</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" style="margin-left: 290px;" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+                </a>
+            </div>
+            <div class="noobs">
+                <h1 class="about-1" style="padding-top: 100px;">SNS</h1>
+                <p class="about-texts" style="padding-top: 10px;">Twitter：<a href=https://twitter.com/sparkvlrt>@sparkvlrt</a>
+                    <br>youtube：<a href=https://www.youtube.com/@spark4019>@spark4019</a>
+                    <br>name  ：sosa #rys</a>
+            </div>
+        </div>
+        <div style="height: 40px;"></div>
+    </div>
+
+    <div class="notes">
+        <h1 class="bh">ノート📒</h1>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
+            <div class="note" onclick="showModal('note1')">
+                <p class="notesh">Duoがほしい件^^;</p>
+            </div>
+            <div class="note" onclick="showModal('note2')">
+                <p class="notesh">最近の感じ</p>
+            </div>
+            <div class="note" onclick="showModal('note3')">
+                <p class="notesh">HTMLを触る時が来た</p>
+            </div>
+        </div>
+        <div style="height: 30px;"></div>
+        <div class="overlay" id="overlaynote1" onclick="hideModal('note1')">
+            <div class="modal">
+                <h1 class="modalheadtext" id="modalContent1">Duoがほしい件^^;</h1>
+                <p>最近Duo欲しいメーターが爆発してDuo欲しいBOTになる程に<br>バグってました。誰か待ってます.......</p>
+                <span class="close-btn" onclick="hideModal('note1')">&times;</span>
+            </div>
+        </div>
+        <div class="overlay" id="overlaynote2" onclick="hideModal('note2')">
+            <div class="modal">
+                <h1 class="modalheadtext" id="modalContent2">最近の感じ</h1>
+                <p>最近スランプだったけど友達のすすめからaim labをコンペに行く前に一回やってたら普通に調子良くて日々の成長を感じられてとても<br>嬉しいです以上。</p>
+                <span class="close-btn" onclick="hideModal('note2')">&times;</span>
+            </div>
+        </div>
+        <div class="overlay" id="overlaynote3" onclick="hideModal('note3')">
+            <div class="modal">
+                <h1 class="modalheadtext" id="modalContent3">HTMLを触る時が来た</h1>
+                <p>やっとHTMLを触ろうとしています。めっちゃ遅いですよね。前々からやろうやろうと思っていたんですけど、このサイトを作るには勉強が必須ってわけじゃないけどちょうどいい機会だったので友達のをパクりました🤪。これから苦しんできますわ^^以上。</p>
+                <span class="close-btn" onclick="hideModal('note3')">&times;</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="made">
+        <h1 class="bh">やってるゲーム🎮</h1>
+        <div style="display: flex; justify-content: center; flex-wrap: wrap; align-items: flex-start;">
+            <div class="mades" onclick="showModal('made1')">
+                <img class="madeimg" src="/image/valorant.jpeg">
+                <p>VALORANT</p>
+            </div>
+            <div class="mades" onclick="showModal('made2')">
+                <img class="madeimg" src="/image/Apex.jpeg">
+                <p>Apex</p>
+            </div>
+            <div class="mades" onclick="showModal('made3')">
+                <img class="madeimg" src="/image/aim labs.jpeg">
+                <p>Aim labs</p>
+            </div>
+            <div class="mades" onclick="showModal('made4')">
+                <img class="madeimg" src="/image/OW.jpeg">
+                <p>OW</p>
+            </div>
+        </div>
+        <div class="overlay" id="overlaymade1" onclick="hideModal('made1')">
+            <div class="modal">
+                <h1 class="modalheadtext" id="modalContent1">VALORANT</h1>
+                <p>このゲームをやってから二年が経ちます....<br>もっと成長したい!</p>
+                <span class="close-btn" onclick="hideModal('made1')">&times;</span>
+                <a href="https://live.tokuly.com">
+                    <div class="modallink">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="10" width="10" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#000000" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="overlay" id="overlaymade2" onclick="hideModal('made2')">
+            <div class="modal">
+                <h1 class="modalheadtext" id="modalContent1">Apex</h1>
+                <p>Apexは正直全然やってないです.ウィングマンOTP</p>
+                <span class="close-btn" onclick="hideModal('made2')">&times;</span>
+                <a href="/">
+                    <div class="modallink">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="10" width="10" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#000000" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="overlay" id="overlaymade3" onclick="hideModal('made3')">
+            <div class="modal">
+                <h1 class="modalheadtext" id="modalContent1">Aim labs</h1>
+                <p>昔よりかは成長を感じられないなぁと思ってモチベなかったけど<br>Aim labsやってからVALOのモチベ結構高い</p>
+                <span class="close-btn" onclick="hideModal('made3')">&times;</span>
+                <a href="https://app.tokuly.com">
+                    <div class="modallink">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="10" width="10" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#000000" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="overlay" id="overlaymade4" onclick="hideModal('made4')">
+            <div class="modal">
+                <h1 class="modalheadtext" id="modalContent1">OW</h1>
+                <p>リア友と結構な頻度でOWやってるよ弱いけど,<br>誘ってください！！！</p>
+                <span class="close-btn" onclick="hideModal('made4')">&times;</span>
+                <a href="https://tokuly.com">
+                    <div class="modallink">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="10" width="10" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path fill="#000000" d="M320 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h82.7L201.4 265.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L448 109.3V192c0 17.7 14.3 32 32 32s32-14.3 32-32V32c0-17.7-14.3-32-32-32H320zM80 32C35.8 32 0 67.8 0 112V432c0 44.2 35.8 80 80 80H400c44.2 0 80-35.8 80-80V320c0-17.7-14.3-32-32-32s-32 14.3-32 32V432c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16H192c17.7 0 32-14.3 32-32s-14.3-32-32-32H80z"/></svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div style="height: 40px;"></div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>Spark_0914</p>
+        </div>
+    </footer>
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script/main.js"></script>
+    <script src="script/particle.js"></script>
+    <script src="script/notifications.js"></script>
+</body>
+</html>
